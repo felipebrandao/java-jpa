@@ -1,12 +1,13 @@
 package br.com.caelum.financas.teste;
 
-import br.com.caelum.financas.modelo.Categoria;
-import br.com.caelum.financas.modelo.Movimentacao;
-import br.com.caelum.financas.util.JPAUtil;
+import java.util.List;
 
 import javax.persistence.EntityManager;
 import javax.persistence.Query;
-import java.util.List;
+
+import br.com.caelum.financas.modelo.Categoria;
+import br.com.caelum.financas.modelo.Movimentacao;
+import br.com.caelum.financas.util.JPAUtil;
 
 /**
  * Created by leonardocordeiro on 24/02/17.
