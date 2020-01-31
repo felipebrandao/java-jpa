@@ -9,9 +9,6 @@ import br.com.caelum.financas.modelo.Categoria;
 import br.com.caelum.financas.modelo.Movimentacao;
 import br.com.caelum.financas.util.JPAUtil;
 
-/**
- * Created by leonardocordeiro on 24/02/17.
- */
 public class TesteMovimentacoesPorCategoria {
 
     public static void main(String[] args) {

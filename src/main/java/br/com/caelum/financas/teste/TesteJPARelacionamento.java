@@ -9,9 +9,6 @@ import javax.persistence.EntityManager;
 import java.math.BigDecimal;
 import java.util.Calendar;
 
-/**
- * Created by leonardocordeiro on 24/02/17.
- */
 public class TesteJPARelacionamento {
 
     public static void main(String[] args) {

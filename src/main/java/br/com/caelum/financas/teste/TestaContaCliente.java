@@ -6,19 +6,9 @@ import br.com.caelum.financas.util.JPAUtil;
 
 import javax.persistence.EntityManager;
 
-/**
- * Created by leonardocordeiro on 24/02/17.
- */
-// TestaContaCliente.java
-
 public class TestaContaCliente {
 
     public static void main(String[] args) {
-
-        /*
-           OBS: Não esqueça que será necessário deletar o banco e criar de novo
-           para ver o @JoinColumn funcionando
-        */
 
         Cliente cliente = new Cliente();
         cliente.setNome("Leonardo");
@@ -31,7 +21,7 @@ public class TestaContaCliente {
         cliente2.setProfissao("Professor");
 
         Conta conta = new Conta();
-        conta.setId(2); // essa conta está no estado 'Detached' pois já possui um id!!
+        conta.setId(2);
 
         cliente.setConta(conta);
         cliente2.setConta(conta);
@@ -40,7 +30,6 @@ public class TestaContaCliente {
         em.getTransaction().begin();
 
         em.persist(cliente);
-//        em.persist(cliente2);
 
         em.getTransaction().commit();
 

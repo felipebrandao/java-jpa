@@ -3,10 +3,6 @@ package br.com.caelum.financas.modelo;
 import javax.persistence.*;
 import java.util.List;
 
-/**
- * Created by leonardocordeiro on 24/02/17.
- */
-
 @Entity
 @NamedQuery(query="select distinct avg(m.valor) from Movimentacao m where m.conta=:pConta "
         + "and m.tipoMovimentacao=:pTipo" +

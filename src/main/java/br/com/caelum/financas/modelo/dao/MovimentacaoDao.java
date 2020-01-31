@@ -7,9 +7,6 @@ import javax.persistence.EntityManager;
 import javax.persistence.TypedQuery;
 import java.util.List;
 
-/**
- * Created by leonardocordeiro on 24/02/17.
- */
 public class MovimentacaoDao {
     private EntityManager em;
 

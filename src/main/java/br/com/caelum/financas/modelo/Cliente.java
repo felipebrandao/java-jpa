@@ -7,9 +7,6 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.OneToOne;
 
-/**
- * Created by leonardocordeiro on 19/12/16.
- */
 @Entity
 public class Cliente {
 

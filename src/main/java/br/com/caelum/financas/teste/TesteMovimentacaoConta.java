@@ -7,9 +7,6 @@ import javax.persistence.EntityManager;
 import javax.persistence.Query;
 import java.util.List;
 
-/**
- * Created by leonardocordeiro on 24/02/17.
- */
 public class TesteMovimentacaoConta {
 
     public static void main(String[] args) {

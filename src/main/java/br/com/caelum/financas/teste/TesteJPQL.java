@@ -10,9 +10,6 @@ import br.com.caelum.financas.modelo.Movimentacao;
 import br.com.caelum.financas.modelo.TipoMovimentacao;
 import br.com.caelum.financas.util.JPAUtil;
 
-/**
- * Created by leonardocordeiro on 24/02/17.
- */
 public class TesteJPQL {
 
     public static void main(String[] args) {
